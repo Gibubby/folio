@@ -1,7 +1,7 @@
-const CACHE_NAME = 'folio-shell-v23';
+const CACHE_NAME = 'folio-shell-v26';
 const APP_ROOT = new URL('./', self.location.href);
 const INDEX_URL = new URL('index.html', APP_ROOT).href;
-const APP_FILES = ['index.html', 'styles.css', 'card-artwork.css', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png']
+const APP_FILES = ['index.html', 'styles.css', 'card-artwork.css', 'manifest.webmanifest', 'icon.svg', 'icon-180.png', 'icon-192.png', 'icon-512.png']
   .map(path => new URL(path, APP_ROOT).href);
 
 self.addEventListener('install', event => {
