@@ -1,0 +1,24 @@
+Folio na iPhonu — bezplatně přes GitHub Pages
+
+Aplikaci lze na iPhonu přidat na plochu jako webovou aplikaci. Soubor index.html otevřený přímo z počítače (file://) se do iPhonu nepřenese a přístup k náklonovému senzoru vyžaduje zabezpečenou HTTPS adresu.
+
+Zveřejnění na GitHub Pages:
+1. Na github.com vytvoř veřejný repozitář, například „folio-iphone“.
+2. Rozbal Folio-iPhone.zip a nahraj všechny soubory z balíčku do kořene repozitáře. Nahraj obsah ZIPu, ne samotný ZIP.
+3. Otevři Settings → Pages.
+4. V části Build and deployment vyber Deploy from a branch, větev main a složku /(root), potom Save.
+5. Po zveřejnění otevři v iPhonu Safari adresu https://TVUJ-UCET.github.io/folio-iphone/ a nahraď TVUJ-UCET svým uživatelským jménem GitHubu.
+6. V Safari klepni na Sdílet → Přidat na plochu. Pokud se nabídne, zapni „Otevřít jako webovou aplikaci“, potom klepni na Přidat.
+
+Ověření scény s náklonem:
+1. Otevři aplikaci z HTTPS adresy nebo její ikony na ploše.
+2. Dvojklepni na kartu, zadej libovolné čtyři číslice a odešli formulář.
+3. Na obrazovce „Přiložte kartu“ polož iPhone displejem nahoru na rovný povrch a chvíli ho nech v klidu. Aplikace při náklonu blízko vodorovné polohy ukáže fajfku.
+4. Pokud prohlížeč senzor neposkytne nebo přístup odmítne, zobrazí se tlačítko „Spustit ukázkovou animaci“.
+
+Důležité:
+- GitHub Pages je zdarma pro veřejné repozitáře; zveřejněné soubory webu uvidí každý. Nezveřejňuj osobní údaje ani skutečné platební údaje.
+- Karty, obrázky, jméno a nastavení jazyka zůstávají uložené lokálně v prohlížeči daného zařízení.
+- Snímač náklonu webu je dostupný jen v zabezpečeném kontextu; použij HTTPS. Prohlížeč může také žádat o přístup k pohybovým senzorům.
+- Karty a fajfka jsou pouze vizuální simulace. Aplikace nepodporuje NFC ani skutečné platby.
+- Po prvním otevření HTTPS stránky se načte offline shell; poprvé otevři aplikaci s připojením k internetu.
