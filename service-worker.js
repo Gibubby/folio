@@ -1,4 +1,4 @@
-const CACHE_NAME = 'folio-shell-v18';
+const CACHE_NAME = 'folio-shell-v20';
 const APP_ROOT = new URL('./', self.location.href);
 const INDEX_URL = new URL('index.html', APP_ROOT).href;
 const APP_FILES = ['index.html', 'styles.css', 'card-artwork.css', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png']
